@@ -1,0 +1,77 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "src": "src/pages/Index.tsx"
+    },
+    {
+      "path": "/student",
+      "src": "src/pages/student/StudentHome.tsx"
+    },
+    {
+      "path": "/student/pretest",
+      "src": "src/pages/student/PreTest.tsx"
+    },
+    {
+      "path": "/student/pretest-analysis",
+      "src": "src/pages/student/PreTestAnalysis.tsx"
+    },
+    {
+      "path": "/student/courses",
+      "src": "src/pages/student/StudentCourses.tsx"
+    },
+    {
+      "path": "/teacher",
+      "src": "src/pages/teacher/TeacherHome.tsx"
+    },
+    {
+      "path": "/teacher/monitor",
+      "src": "src/pages/teacher/TeacherMonitor.tsx"
+    },
+    {
+      "path": "/teacher/analysis",
+      "src": "src/pages/teacher/TeacherAnalysis.tsx"
+    },
+    {
+      "path": "/teacher/upload-course",
+      "src": "src/pages/teacher/UploadCourse.tsx"
+    },
+    {
+      "path": "/teacher/upload-question",
+      "src": "src/pages/teacher/UploadQuestion.tsx"
+    },
+    {
+      "path": "/admin",
+      "src": "src/pages/admin/AdminHome.tsx"
+    },
+    {
+      "path": "/admin/data",
+      "src": "src/pages/admin/DataMonitor.tsx"
+    },
+    {
+      "path": "/admin/course-review",
+      "src": "src/pages/admin/CourseReview.tsx"
+    },
+    {
+      "path": "/admin/question-review",
+      "src": "src/pages/admin/QuestionReview.tsx"
+    }
+  ],
+  "components": [
+    {
+      "name": "AppNav",
+      "src": "src/components/AppNav.tsx",
+      "route": "/preview/app-nav"
+    },
+    {
+      "name": "PageHeader",
+      "src": "src/components/PageHeader.tsx",
+      "route": "/preview/page-header"
+    },
+    {
+      "name": "SkyDecor",
+      "src": "src/components/SkyDecor.tsx",
+      "route": "/preview/sky-decor"
+    }
+  ]
+}
